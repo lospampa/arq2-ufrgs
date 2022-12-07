@@ -80,6 +80,15 @@ int main(int argc, char* argv[])
         *(char **)&mem[indices[i]*stride]= (char*)&mem[indices[i+1]*stride];
     *(char **)&mem[indices[size-1]*stride]= (char*)&mem[indices[0]*stride];
 
+    /*for (i = 0; i < size; i++) {
+         j = i +  rand() % (size - i);
+         if (i != j) {
+             tmp = indices[i];
+             indices[i] = indices[j];
+             indices[j] = tmp;
+         }
+     }*/
+    
     char **p = (char **) mem;
     tmp = count / 100;
 
