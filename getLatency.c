@@ -82,6 +82,17 @@ int main(int argc, char* argv[])
 
     char **p = (char **) mem;
     tmp = count / 100;
+    
+    /* uncomment for 3rd experiment -- shuffle indices
+     for (i = 0; i < size; i++) {
+         j = i +  rand() % (size - i);
+         if (i != j) {
+             tmp = indices[i];
+             indices[i] = indices[j];
+             indices[j] = tmp;
+         }
+     } */
+
 
     gettimeofday (&tv1, &tz);
     for (i = 0; i < tmp; ++i) {
