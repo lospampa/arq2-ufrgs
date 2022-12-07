@@ -1,6 +1,6 @@
 #set -x
 
-work= ./test
+work= ./getLatency
 buffer_size=1
 stride=128
 
