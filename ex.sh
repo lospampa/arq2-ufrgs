@@ -2,7 +2,7 @@
 
 work= ./getLatency
 buffer_size=1
-stride=128
+stride=8
 
 for i in `seq 1 21`; do
     taskset -ac 2 $work -b $buffer_size -s $stride
