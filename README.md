@@ -1,4 +1,4 @@
-# Material auxiliar para a disciplina de Arquitetura de Computadores 1 - 2022/2 - INF - UFRGS
+# Material auxiliar para a disciplina de Arquitetura de Computadores 2 - INF - UFRGS
 
 Comandos úteis:
 1) Editar arquivo com vim:
